@@ -10,7 +10,6 @@ import thumbDoor from '../images/door.png';
 import thumbChair from '../images/chair.png';
 import thumbPackage from '../images/package.png';
 
-import placeholder from '../images/placeholder.jpg';
 import { useEffect, useState } from 'react';
 
 const MODELS = [
