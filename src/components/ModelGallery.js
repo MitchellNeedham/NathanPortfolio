@@ -41,7 +41,7 @@ const MODELS = [
 ];
 
 export default function ModelGallery() {
-  const [model, setModel] = useState(1);
+  const [model, setModel] = useState(0);
   const [cameraPos, setCameraPos] = useState("45deg 90deg 10m");
 
   useEffect(() => {
