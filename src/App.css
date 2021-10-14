@@ -1,10 +1,15 @@
 body, html {
-  background-color: #222222;
+  background-color: #080033;
 }
 
 .container {
   width: min(100vw, 1200px);
-  height: 100vh;
+  min-height: 200vh;
   margin: 0 auto 0;
-  background-color: #7a7a7a;
+  background-color: #f5f5f5;
+  box-shadow: 0px 0px 300px rgba(0,0,0,1);
+}
+
+.container > * {
+  z-index: 10;
 }

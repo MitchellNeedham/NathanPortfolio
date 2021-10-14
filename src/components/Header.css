@@ -1,5 +1,19 @@
 .header {
-  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.banner {
+  height: 100px;
+}
+
+.nathan-side {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  left: -300px;
+  top: 50px;
 }
 
 .main-nav {
