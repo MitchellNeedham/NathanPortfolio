@@ -11,7 +11,6 @@ import modelPackageUV from '../models/package_uv.glb';
 
 // THUMBNAILS
 
-
 import thumbChair from '../images/armchair_thumbnail.jpg';
 import thumbArmChairUV from '../images/armchair_uv_thumbnail.jpg';
 import thumbDoor from '../images/door_thumbnail.jpg';

@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Cute';
+  src: url('Cutewritten-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Mungil';
+  src: url('Mungil-Regular.ttf') format('truetype');
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Mungil', sans-serif;
+}
+
+p, text, textarea, input {
+  font-family: 'Cute', sans-serif;
+}
