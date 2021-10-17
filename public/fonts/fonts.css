@@ -12,6 +12,6 @@ h1, h2, h3, h4, h5 {
   font-family: 'Mungil', sans-serif;
 }
 
-p, text, textarea, input {
+body, html, p, text, textarea, input {
   font-family: 'Cute', sans-serif;
 }
