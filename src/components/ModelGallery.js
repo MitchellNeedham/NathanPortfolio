@@ -25,9 +25,7 @@ export default function ModelGallery() {
         ></model-viewer>
       </div>
       <div className="scrollable">
-        <Scrollbars
-          
-        >
+        <Scrollbars>
           <div className="model-gallery-thumbnails">
             {MODELS.map((thumb, i) => (
               <div

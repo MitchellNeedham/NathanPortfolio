@@ -23,8 +23,8 @@
 }
 
 .model-gallery-thumbnail {
-  width: 180px;
-  height: 180px;
+  min-width: 180px;
+  min-height: 180px;
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -57,4 +57,19 @@ model-viewer {
   border-top: 3px solid #ccc;
   margin: 20px auto 0;
   padding: 0 20px 0 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .model-gallery-view {
+    width: 100%;
+  }
+
+  .scrollable {
+    width: 100vw;
+    height: 200px;
+  }
+  .model-gallery-thumbnails {
+    width: 100%;
+    flex-direction: row;
+  }
 }
