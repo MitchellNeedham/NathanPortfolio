@@ -9,9 +9,9 @@
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Mungil', sans-serif;
+  font-family: 'Mungil', sans-serif !important;
 }
 
 body, html, p, text, textarea, input {
-  font-family: 'Cute', sans-serif;
+  font-family: 'Cute', sans-serif !important;
 }
