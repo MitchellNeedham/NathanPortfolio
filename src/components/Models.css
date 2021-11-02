@@ -1,0 +1,14 @@
+.uv-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.uv-flex > div{
+    width: 220px;
+    flex-grow: 1;
+}
+
+.uv-flex img{
+    width: 100%;
+}

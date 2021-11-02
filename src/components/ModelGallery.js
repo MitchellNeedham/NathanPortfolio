@@ -3,6 +3,7 @@ import '@google/model-viewer';
 import Scrollbars from 'react-custom-scrollbars-2';
 import './modelviewer.css';
 import { MODELS } from './Models';
+import './Models.css';
 
 export default function ModelGallery() {
   const [model, setModel] = useState(MODELS[0]);

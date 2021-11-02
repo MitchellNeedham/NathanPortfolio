@@ -13,3 +13,9 @@ body, html {
 .container > * {
   z-index: 10;
 }
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  text-shadow: 1px 3px 3px rgba(70, 70, 70, 0.301);
+}
