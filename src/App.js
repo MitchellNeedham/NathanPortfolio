@@ -9,6 +9,7 @@ import About from './components/pages/About';
 import Home from './components/pages/Home';
 import Portfolio from './components/pages/Portfolio';
 import JobApplication from './components/pages/JobApplication'
+import CocoaLoco from './components/pages/CocoaLoco'
 import './App.css';
 
 function App() {
@@ -32,6 +33,9 @@ function App() {
             </Route>
             <Route exact path='/log'>
               <JobApplication />
+            </Route>
+            <Route exact path='/cocoaloco'>
+              <CocoaLoco/>
             </Route>
           </Switch>
         </div>
